@@ -1,0 +1,109 @@
+/* Обнуление */
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+body {
+  font-family: Rubik;
+  font-size: 12 px;
+  color: #616161;
+}
+
+/* -------------------------- */
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* -------------------------- */
+
+[class*="__container"] {
+  max-width: 1057px;
+  margin: 0 auto;
+}
+
+.header {}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  min-height: 114px;
+}
+
+.header__menu {
+  flex: 1 1 auto;
+}
+
+.header__button {
+  flex: 0 0 252px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {}
+
+.menu__link {}
+
+
+.button {
+  display: flex;
+  padding: 0px 0px 0px 0px;
+
+  font-family: Raleway;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fcfdfe;
+}
+
+.button_blue {}
