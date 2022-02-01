@@ -1,3 +1,8 @@
+:root {
+  --red: #EC5863;
+  --blue: #4285f4;
+}
+
 /* Обнуление */
 
 *,
@@ -95,7 +100,11 @@ body {
 
 .button {
   display: flex;
-  padding: 0px 0px 0px 0px;
+  padding: 13px 30px;
+
+  border-radius: 5px;
+  background-color: var(--blue);
+
 
   font-family: Raleway;
   font-size: 10px;
@@ -106,4 +115,6 @@ body {
   color: #fcfdfe;
 }
 
-.button_blue {}
+.button_blue {
+  background-color: var(--blue);
+}
