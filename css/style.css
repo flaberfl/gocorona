@@ -213,8 +213,6 @@ body {
 
 /* ========================================= */
 
-.page__get-started {}
-
 .get-started {
   background-color: var(--gray);
 }
@@ -358,8 +356,6 @@ body {
   flex: 0 1 50%;
   padding: 0px 0px 0px 7px;
 }
-
-.stay-safe__block-text {}
 
 .media-stay-safe__item {
   position: absolute;
