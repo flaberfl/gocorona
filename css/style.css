@@ -5,6 +5,7 @@
   --blue-hover: #91b8f8;
   --text-button: #fcfdfe;
   --gray: #FAFBFD;
+  --border-radius: 8px;
 }
 
 /* Обнуление */
@@ -202,12 +203,14 @@ body {
   color: #616161;
 }
 
-.block-text__text:not(:last-child) {
-  margin: 0px 0px 26px 0px;
+.block-text__text_mw {
+  max-width: 610px;
+  margin: 0 auto;
 }
 
-.block-text__text_mw0 {
-  max-width: none;
+.block-text__text:not(:last-child) {
+  /* margin: 0px 0px 26px 0px; */
+  margin-bottom: 26px;
 }
 
 
@@ -509,7 +512,7 @@ body {
   padding: 0px 0px 56% 0px;
 
   box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
-  border-radius: 8px;
+  border-radius: var(--border-radius);
   overflow: hidden;
 }
 
@@ -522,6 +525,64 @@ body {
   object-fit: cover;
 }
 
+
+/* ==================HEALTHCARE================== */
+
+.healthcare {
+  padding: 80px 0px 47px;
+}
+
+.healthcare__container {}
+
+.healthcare__block-text {
+  margin: 0px 0px 67px 0px;
+}
+
+.block-text__button {}
+
+.healthcare__items {
+  display: flex;
+  margin: 0 auto;
+}
+
+.healthcare__item {
+  margin: 0px 36px;
+  flex: 0 1 33.33%;
+
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: var(--border-radius);
+}
+
+.item-healthcare {
+  padding: 38px 25px 46px;
+  text-align: center;
+}
+
+.item-healthcare_1 {
+  padding: 38px 0px 46px;
+}
+
+.item-healthcare__icon {
+  margin: 0px 0px 58px 0px;
+}
+
+.item-healthcare__title {
+  margin: 0px 0px 8px 0px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 138.5%;
+  letter-spacing: 0.08em;
+  color: #000;
+}
+
+.item-healthcare__text {
+  /* max-width: 230px; */
+
+  font-size: 12px;
+  line-height: 138.5%;
+  letter-spacing: 0.08em;
+}
 
 /* =============MEDIA=============== */
 
